@@ -2,9 +2,10 @@ import React, { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
 
-function App() {
+function App () {
   const [count, setCount] = useState(0)
-
+  const a: string = '测试一下代码规范检测!'
+  console.log(a)
   return (
     <div className="App">
       <header className="App-header">
